@@ -1,0 +1,48 @@
+BEGIN;
+
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE1', 22000, 60);
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE2', 20000, 54);
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE3', 21000, 56);
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE4', 22000, 60);
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE5', 20000, 54);
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE6', 21000, 56);
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE7', 22000, 60);
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE8', 20000, 54);
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE9', 21000, 56);
+INSERT INTO tanques 
+VALUES (DEFAULT, 'TANQUE10', 22000, 60);
+
+
+INSERT INTO sensores
+VALUES (DEFAULT, 'Oxigenio', 1, 82, 'mg/l',DEFAULT);
+INSERT INTO sensores
+VALUES (DEFAULT, 'Temperatura', 1, 28, 'celsius',DEFAULT);
+
+INSERT INTO sensores
+VALUES (DEFAULT, 'Oxigenio', 2, 85, 'mg/l',DEFAULT);
+INSERT INTO sensores
+VALUES (DEFAULT, 'Temperatura', 2, 29, 'celsius',DEFAULT);
+INSERT INTO sensores
+VALUES (DEFAULT, 'Oxigenio', 3, 79, 'mg/l',DEFAULT);
+INSERT INTO sensores
+VALUES (DEFAULT, 'Temperatura', 4, 30, 'celsius',DEFAULT);
+INSERT INTO sensores
+VALUES (DEFAULT, 'Oxigenio', 5, 87, 'mg/l',DEFAULT);
+INSERT INTO sensores
+VALUES (DEFAULT, 'Temperatura', 5, 31, 'celsius',DEFAULT);
+INSERT INTO sensores
+VALUES (DEFAULT, 'Oxigenio', 4, 78, 'mg/l',DEFAULT);
+INSERT INTO sensores
+VALUES (DEFAULT, 'Temperatura', 3, 26, 'celsius',DEFAULT);
+
+COMMIT;
+
